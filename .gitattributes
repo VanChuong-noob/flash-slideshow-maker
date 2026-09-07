@@ -1,0 +1,10 @@
+# This file is used to override language statistics
+# Normalize line endings
+# Text file normalization
+docs/** linguist-vendored
+package-lock.json linguist-generated
+src/*.ts linguist-detectable
+Cargo.lock linguist-generated
+*.json linguist-detectable=false
+docs/* linguist-vendored
+# eof 6ae06566
